@@ -1,0 +1,60 @@
+****************************************************************
+
+#########
+connecting with the mysql -
+#########
+
+
+spring.application.name=banking-app
+spring.datasource.url=jdbc:mysql://localhost:3306/banking_app
+spring.datasource.username=root
+spring.datasource.password=admin
+spring.jpa.hibernate.ddl-auto=update
+
+*****************************************************************
+
+
+*****************************************************************
+
+########
+Terms and definetion
+########
+
+What is the use of @column in Spring Boot?
+The Column Annotation. Just like the @Table annotation, we can use the @Column annotation to mention the details of a column in the table. The name element specifies the name of the column in the table. The length element specifies its length.
+
+
+What is the use of @table in Spring Boot?
+The @Table annotation provides options to customize the mapping of an entity to a database table. It allows you to specify the name of the table, the schema, and other attributes related to the database table. For instance: In the below code snippet, we are specifying the students table name in the database.
+
+The @AllArgsConstructor annotation generates a constructor with one parameter for every field in the class. 
+ @NoArgsConstructor generates a default constructor with no parameters.
+
+@Entity annotation. is used at the class level and marks the class as a persistent entity. It signals to the JPA provider that the class should be treated as a table in the database.
+
+DTO
+Data Transfer Objects play a crucial role in Spring Boot applications by facilitating efficient communication between different layers. They promote maintainability, reduce network calls, and enhance versioning and compatibility.
+
+
+What is static method in Java with example?
+Declining a method as static makes it accessible even before any class objects are created. A common example of a static method is the main() method, which serves as the entry point for a Java program. The main() method is declared static because it needs to be called before any objects are instantiated.
+
+
+What is ResponseEntity used for?
+It represents an HTTP response, allowing you to customize the response status, headers, and body that your API returns to the client.
+
+What are headers 
+contain metadata in key-value pairs that are sent along with HTTP requests and responses. 
+
+
+serialization = convert object into file specfic objects conversion 
+deserialization = convert file specific to pure objects
+
+@ResponseBody =
+this is used to store the clinet data which they send from the browser . in this deserilizatipn occurs 
+
+@PathVariable =
+is an annotation used to extract values from the URI (Uniform Resource Identifier) template and bind them to the method parameters.
+
+
+*****************************************************************
